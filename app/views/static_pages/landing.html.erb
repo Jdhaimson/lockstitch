@@ -1,0 +1,26 @@
+<div id="landing">
+  <div id="slideshow">
+  </div>
+  <div id="static">
+  </div>
+  <div id="main" class="container">
+    <div class="row">
+      <div id="top-word" class="span2 offset5 impact">
+        <h1><%= link_to "Words", "#" %></h1>
+      </div>
+    </div>
+    <div id="eye" class="row">
+      <div id="left-word" class="span2 offset1 impact">
+        <h1><%= link_to "Words", "#" %></h1>
+      </div>
+      <div class="span6">
+        <%= image_tag('eye.png') %>
+      </div>
+      <div id="right-word" class="span2 impact">
+        <h1><%= link_to "Words", "#" %></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= javascript_tag("$(document).ready(slideshowInit);") %>

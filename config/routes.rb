@@ -1,4 +1,7 @@
 Lockstitch::Application.routes.draw do
+  root to: "static_pages#landing"
+  get "static_pages/landing"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
